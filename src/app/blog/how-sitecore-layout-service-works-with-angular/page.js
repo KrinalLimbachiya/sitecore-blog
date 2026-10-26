@@ -462,7 +462,7 @@ export default function Post() {
           className="h-1.5 w-1.5 rounded-full bg-accent"
         />
         <p className="text-sm font-medium text-zinc-500 dark:text-zinc-400">
-          2026-09-02
+          2026-09-22
         </p>
       </div>
       <div className="mt-6 h-1 w-16 rounded-full bg-gradient-to-r from-accent to-fuchsia-500" />

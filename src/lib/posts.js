@@ -8,27 +8,27 @@ export const posts = [
   {
     slug: "understanding-sitecore-jss-architecture-with-angular",
     title: "Understanding Sitecore JSS Architecture with Angular",
-    date: "2026-09-01",
+    date: "2026-09-08",
     excerpt:
       "A look at how Sitecore JSS is structured when paired with Angular.",
   },
   {
     slug: "how-sitecore-layout-service-works-with-angular",
     title: "How Sitecore Layout Service Works with Angular",
-    date: "2026-09-02",
+    date: "2026-09-22",
     excerpt:
       "Breaking down the Layout Service and how Angular consumes it.",
   },
   {
     slug: "sitecore-graphql-with-angular",
     title: "Sitecore GraphQL with Angular",
-    date: "2026-09-03",
+    date: "2026-10-06",
     excerpt: "Querying Sitecore content via GraphQL from an Angular app.",
   },
   {
     slug: "building-reusable-sitecore-components-with-angular-jss",
     title: "Building Reusable Sitecore Components with Angular JSS",
-    date: "2026-09-04",
+    date: "2026-10-20",
     excerpt: "Patterns for reusable, JSS-friendly Angular components.",
   },
   {
