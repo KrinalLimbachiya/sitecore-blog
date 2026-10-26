@@ -3,8 +3,12 @@
 // picks up the change automatically.
 
 export const siteConfig = {
-  name: "My Blog",
-  tagline: "Thoughts, notes, and projects.",
+  name: "Krinal Limbachiya",
+  headline: "Building headless Sitecore experiences with Angular",
+  tagline:
+    "Practical notes on Sitecore JSS, the Layout Service, GraphQL and reusable Angular components.",
+  intro:
+    "Hi, I'm Krinal. I write hands-on guides from real project experience, so you can skip the trial and error.",
   navLinks: [
     { href: "/", label: "Home" },
     { href: "/blog", label: "Blog" },

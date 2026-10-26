@@ -13,10 +13,13 @@ export default function Home() {
           Sitecore · JSS · Angular
         </span>
         <h1 className="mt-6 text-4xl font-semibold tracking-tight sm:text-5xl">
-          {siteConfig.name}
+          {siteConfig.headline}
         </h1>
         <p className="mt-4 max-w-xl text-lg text-zinc-600 dark:text-zinc-400">
           {siteConfig.tagline}
+        </p>
+        <p className="mt-4 max-w-xl text-sm text-zinc-500 dark:text-zinc-400">
+          {siteConfig.intro}
         </p>
         <div className="mt-8 flex flex-wrap items-center gap-4">
           <Link

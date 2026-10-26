@@ -4,10 +4,11 @@ import Footer from "@/components/Footer";
 
 export const metadata = {
   title: {
-    default: "My Blog",
-    template: "%s | My Blog",
+    default: "Krinal Limbachiya | Sitecore JSS & Angular Blog",
+    template: "%s | Krinal Limbachiya",
   },
-  description: "Personal blog and portfolio.",
+  description:
+    "Practical guides on Sitecore JSS, the Layout Service, GraphQL and Angular by Krinal Limbachiya.",
 };
 
 const THEME_BOOTSTRAP_SCRIPT = `
