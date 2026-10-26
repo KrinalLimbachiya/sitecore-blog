@@ -1,4 +1,4 @@
-import { posts } from "@/lib/posts";
+import { publishedPosts } from "@/lib/posts";
 import PostCard from "@/components/PostCard";
 
 export const metadata = {
@@ -11,10 +11,10 @@ export default function BlogIndex() {
       <p className="text-sm font-medium text-accent">Writing</p>
       <h1 className="mt-2 text-3xl font-semibold tracking-tight">Blog</h1>
       <p className="mt-3 text-zinc-600 dark:text-zinc-400">
-        {posts.length} posts on Sitecore JSS and Angular architecture.
+        {publishedPosts.length} posts on Sitecore JSS and Angular architecture.
       </p>
       <div className="mt-10 grid gap-6 sm:grid-cols-2">
-        {posts.map((post) => (
+        {publishedPosts.map((post) => (
           <PostCard key={post.slug} post={post} />
         ))}
       </div>

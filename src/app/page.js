@@ -1,10 +1,10 @@
 import Link from "next/link";
 import { siteConfig } from "@/lib/site-config";
-import { posts } from "@/lib/posts";
+import { publishedPosts } from "@/lib/posts";
 import PostCard from "@/components/PostCard";
 
 export default function Home() {
-  const latest = posts.slice(0, 4);
+  const latest = publishedPosts.slice(0, 4);
 
   return (
     <div>

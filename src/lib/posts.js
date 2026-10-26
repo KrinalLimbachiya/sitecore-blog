@@ -33,32 +33,40 @@ export const posts = [
   },
   {
     slug: "debugging-sitecore-jss-angular-applications",
+    published: false, // content not written yet - set to true (or remove) to show it
     title: "Debugging Sitecore JSS Angular Applications",
     date: "2026-09-05",
     excerpt: "Practical techniques for debugging JSS + Angular apps.",
   },
   {
     slug: "sitecore-angular-performance-optimization",
+    published: false, // content not written yet - set to true (or remove) to show it
     title: "Sitecore + Angular Performance Optimization",
     date: "2026-09-06",
     excerpt: "Performance tuning tips for Sitecore JSS Angular apps.",
   },
   {
     slug: "multi-language-rtl-sitecore-applications-with-angular",
+    published: false, // content not written yet - set to true (or remove) to show it
     title: "Multi-language & RTL Sitecore Applications with Angular",
     date: "2026-09-07",
     excerpt: "Handling multi-language and RTL support in JSS + Angular.",
   },
   {
     slug: "sitecore-jss-vs-content-sdk",
+    published: false, // content not written yet - set to true (or remove) to show it
     title: "Sitecore JSS vs Content SDK",
     date: "2026-09-08",
     excerpt: "Comparing Sitecore JSS with the newer Content SDK.",
   },
   {
     slug: "building-an-ai-powered-sitecore-component-generator",
+    published: false, // content not written yet - set to true (or remove) to show it
     title: "Building an AI-Powered Sitecore Component Generator",
     date: "2026-09-09",
     excerpt: "Using AI tooling to generate Sitecore JSS components.",
   },
 ];
+
+// Only posts that are ready are shown in lists. Unpublished ones stay hidden.
+export const publishedPosts = posts.filter((post) => post.published !== false);
